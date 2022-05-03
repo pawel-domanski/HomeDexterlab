@@ -36,7 +36,24 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/avatar.png">
-
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setCookieDomain", "*.link.dexterlab.pl"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+        var u="//stat.dexterlab.pl/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '6']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <noscript><p><img src="//stat.dexterlab.pl/matomo.php?idsite=6&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
 </head>
 
 <body>
@@ -66,7 +83,7 @@
         -->
 
         <!-- Your Image Here -->
-        <img src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="LittleLink Logo">
+        <img src="images/Pawel_Top.jpg" srcset="images/avatar@2x.png 2x" alt="LittleLink Logo">
 
         <!-- Title -->
         <h1>Paweł DEXTER Domański</h1>
